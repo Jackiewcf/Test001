@@ -1,0 +1,7 @@
+.tabletBox {background-color:grey;}
+
+
+/*-------------------------------slider---------------------------------------*/
+#mainSlider a { height:300px; }
+.controls .prevBtn, .controls .nextBtn {  bottom:90px;}
+/*-------------------------------slider---------------------------------------*/

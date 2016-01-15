@@ -1,0 +1,46 @@
+.titleBox { position:relative; width:100%; min-height:200px; margin-bottom:1px; }
+
+.desktopBox {background-color:#ccc;}
+.tabletBox {background-color:#ddd;}
+.mobileBox {background-color:#eee;}
+
+
+/*-------------------------------slider---------------------------------------*/
+#container { margin-bottom:10px;}
+#container, #mainSlider { width: auto;}
+#mainSlider a{width:100%; height:400px; display:block; background-size:cover; background-position:center center;background-repeat:no-repeat;}
+.controls { position:absolute; bottom: 10px; width:100%; text-align:center;}
+.controls .numericControls li { display:inline-block; background-color:white; width:12px; height:12px; border-radius:6px; margin:0 5px; text-indent: 50px; overflow:hidden; }
+.controls .numericControls li.current {background-color:gray;}
+.controls .numericControls li a {width:100%; display:block; height:100%;}
+.controls .prevBtn, .controls .nextBtn { position:absolute; bottom:130px; font-size:120px; color:white; font-family:Lato; }
+.controls .prevBtn { left:2%;  }
+.controls .nextBtn { right:2%; }
+/*-------------------------------slider---------------------------------------*/
+
+
+
+
+/*-------------------------------table---------------------------------------*/
+.tableContent th , .tableContent td { background-color:#fff; padding:10px; margin:1px; border:1px solid #aaa;}
+.tableContent tr td { background-color:#ddd; }
+
+/*-------------------------------table---------------------------------------*/
+
+
+
+
+/*-------------------------------table---------------------------------------*/
+.boxContainer {
+	display: -webkit-flex;
+	display: flex;
+  width:100%; }
+
+.box1 { background-color:#fff;  }
+.box2 { background-color:#ddd; }
+.box3 { background-color:#eee; }
+.box1, .box2, .box3  { width:33.3%;
+ -webkit-flex: 2;
+          flex: 2;
+			}
+/*-------------------------------table---------------------------------------*/
